@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "remix-app-template",
+  "description": "",
+  "license": "",
+  "scripts": {
+    "postinstall": "remix setup",
+    "build": "remix build",
+    "dev": "remix dev",
+    "dev:netlify": "cross-env NODE_ENV=development netlify dev"
+  },
+  "dependencies": {
+    "@remix-run/react": "^0.18.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "6.0.0-beta.0",
+    "remix": "^0.18.2",
+    "@netlify/functions": "0.7.2",
+    "@remix-run/netlify": "0.17.5"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^0.18.2",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.4",
+    "typescript": "^4.1.2",
+    "cross-env": "^7.0.3"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
